@@ -89,14 +89,24 @@ body{
 }
 
 #banner{
-    background-image: url(../images/podcasts_banner.jpg);
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    margin-bottom: 4rem;
     h1{
         text-align: center;
-        
+        color: $white;
+        font-size: 3rem;
+        font-weight: 300;
+        letter-spacing: 1px;
+        margin: 0;
+        padding: 8rem 0;
     }
+}
+
+.podcast_banner{
+    background-image: url(../images/podcasts_banner.jpg);
 }
 
 @import 'normalize';
